@@ -1,0 +1,20 @@
+{
+  "board_name": "企业 Agent 系列评测看板 — 六组对照",
+  "groups": [
+    { "group_id": "grp-method-a", "label": "方法论接线 A 组", "baseline": true },
+    { "group_id": "grp-method-b", "label": "方法论接线 B 组", "baseline": false },
+    { "group_id": "grp-routing-a", "label": "路由方案 A", "baseline": false },
+    { "group_id": "grp-routing-b", "label": "路由方案 B", "baseline": false },
+    { "group_id": "grp-taxonomy-a", "label": "分类法 A", "baseline": false },
+    { "group_id": "grp-taxonomy-b", "label": "分类法 B", "baseline": false }
+  ],
+  "metrics": [
+    { "metric": "accuracy", "direction": "higher_is_better" },
+    { "metric": "latency_ms", "direction": "lower_is_better" }
+  ],
+  "cost_model": {
+    "unit_price_usd": 0.05,
+    "currency": "USD",
+    "note": "每千次调用（脱敏样例）"
+  }
+}
