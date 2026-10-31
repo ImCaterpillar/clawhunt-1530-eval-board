@@ -1,0 +1,18 @@
+[
+  { "group_id": "grp-method-a", "metric": "accuracy", "value": 0.92 },
+  { "group_id": "grp-method-a", "metric": "accuracy", "value": 0.90 },
+  { "group_id": "grp-method-a", "metric": "latency_ms", "value": 120 },
+  { "group_id": "grp-method-a", "metric": "latency_ms", "value": 110 },
+  { "group_id": "grp-method-b", "metric": "accuracy", "value": 0.95 },
+  { "group_id": "grp-method-b", "metric": "accuracy", "value": 0.94 },
+  { "group_id": "grp-method-b", "metric": "latency_ms", "value": 134 },
+  { "group_id": "grp-method-b", "metric": "latency_ms", "value": 128 },
+  { "group_id": "grp-routing-a", "metric": "accuracy", "value": 0.85 },
+  { "group_id": "grp-routing-a", "metric": "latency_ms", "value": 200 },
+  { "group_id": "grp-routing-b", "metric": "accuracy", "value": 0.89 },
+  { "group_id": "grp-routing-b", "metric": "latency_ms", "value": 180 },
+  { "group_id": "grp-taxonomy-a", "metric": "accuracy", "value": 0.88 },
+  { "group_id": "grp-taxonomy-a", "metric": "latency_ms", "value": 160 },
+  { "group_id": "grp-taxonomy-b", "metric": "accuracy", "value": 0.91 },
+  { "group_id": "grp-taxonomy-b", "metric": "latency_ms", "value": 150 }
+]
