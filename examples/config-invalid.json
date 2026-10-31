@@ -1,0 +1,9 @@
+{
+  "board_name": "非法配置",
+  "groups": [
+    { "group_id": "grp-x", "label": "only-one-1", "baseline": true }
+  ],
+  "metrics": [],
+  "cost_model": { "unit_price_usd": -1, "currency": "EUR" },
+  "extra_field": true
+}
